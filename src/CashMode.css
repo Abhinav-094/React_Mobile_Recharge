@@ -1,0 +1,82 @@
+/* ✅ Page Centering */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8f4fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ✅ Main Card */
+#top_div_ {
+  border: 2px solid #333;
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px grey;
+  background-color: #f0f8ff;
+  padding: 25px 20px;
+  text-align: center;
+}
+
+/* ✅ Heading */
+#heading__ {
+  margin-bottom: 25px;
+  color: #2c5aa0;
+  text-shadow: 1px 1px 2px lightgray;
+}
+
+/* ✅ Label Text */
+span {
+  font-weight: bold;
+  display: block;
+  margin-top: 15px;
+  text-align: left;
+}
+
+/* ✅ Inputs */
+input {
+  width: 90%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin-top: 5px;
+  padding-left: 8px;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #4a90e2;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+/* ✅ Bottom Div */
+#bottom_div {
+  margin-top: 20px;
+  text-align: left;
+}
+
+/* ✅ Button */
+#recharge_id {
+  width: 50%;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4a90e2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+#recharge_id:hover {
+  background-color: #357abd;
+}
+
+#recharge_id:active {
+  background-color: #2c5aa0;
+}
